@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class nameandage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sree=new Scanner(System.in);
+		System.out.println("Enter a Name:");
+		String a = sree.nextLine();
+		System.out.println("Enter a Age:");
+		int b = sree.nextInt();
+
+	}
+
+}
+
+output:
+Enter a Name:
+Lathi
+Enter a Age:
+19
+
+DESCRIPTION:
+A Scanner object named sca is created. It is initialized to read from the standard input stream (System.in), which refers to the console (keyboard input).
+The nextLine() method is used to capture the entire line of text entered by the user. This will be the user's name and is stored in the String variable.
