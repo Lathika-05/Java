@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Vowels {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter the Character:");
+		Scanner sree = new Scanner(System.in);
+		char ch = sree.next().charAt(0); 
+		if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+		{
+		System.out.println("The character is Vowels");
+		}
+		else {
+		System.out.println("The character is Consonants");
+		}
+		
+
+	}
+
+}
+
+output 1:
+Enter the Character:
+A
+The character is Vowels
+
+output 2:
+Enter the Character:
+s
+The character is Consonants
+
+DESCRIPTION:
+      This Java program prompts the user to enter a character and checks if it is a vowel (a, e, i, o, u, and their uppercase counterparts). 
+  It uses an if statement with logical OR to determine if the input is a vowel or a consonant. The program then prints the corresponding result ("Vowel" or "Consonant") based on the input.
+      
+
